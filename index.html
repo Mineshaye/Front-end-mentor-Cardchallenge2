@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+  <style>
+    body{
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgb(245, 216, 75);
+      font-family: Roboto;
+    }
+    p{
+      max-width: 300px;
+    }
+    .card{
+      background-color: white;
+      padding: 20px;  
+      border: 1px solid;
+      border-radius: 15px; 
+      box-shadow: 8px 8px black;
+     }
+     .card-image{
+      border-radius: 10px;
+     }
+     .function{
+      background-color: rgb(245, 216, 75);
+      font-weight: bold;
+      width: fit-content;
+      padding: 5px ;
+      border-radius: 5px;
+      margin-bottom: 0px;
+     }
+     .date{
+      margin-top: 12px;
+      font-size: 14px;
+      margin-bottom: 0px;
+     }
+     .heading{
+      margin-top: 14px;
+      font-size: 25px;
+      font-weight: bold;
+      margin-bottom: 0px;
+     }
+     .description{
+      font-size: 14px;
+      color: rgb(149, 149, 149);
+     }
+     .section3{
+      display: flex;
+      align-items: center;
+     }
+    .card-avatar{
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+    }
+    .card-author{
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<div class="card">
+  <img class="card-image" src="illustration-article.svg" alt="image">
+  <div class="section2">
+    <p class="function">Learning</p>
+    <p class="date" >Published 21 Dec 2023</p>
+    <p class="heading">HTML & CSS foundations</p>
+    <p class="description">These languages are the backebone of every website, defining structure,content, and presentation.</p>
+    <div class="section3">
+      <img class="card-avatar" src="image-avatar.webp" alt="avatar">
+      <p class="card-author"> Greg Hooper</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
